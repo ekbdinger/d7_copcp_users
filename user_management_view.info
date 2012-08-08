@@ -1,0 +1,10 @@
+name = User Management view
+description = same as what I have on the eKB
+core = 7.x
+package = ekbd7
+php = 5.2.4
+dependencies[] = advanced_forum
+dependencies[] = ctools
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
